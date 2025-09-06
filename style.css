@@ -27,15 +27,17 @@ body {
   padding: 3rem 1rem;
   color: #fff;
 }
-.hero .overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.55));
-}
-.hero-content {
+.hero {
   position: relative;
-  z-index: 1;
-  max-width: 900px;
+  min-height: 55vh;
+  background: var(--brand);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #fff;
+}
+
 }
 .avatar {
   width: 120px;
